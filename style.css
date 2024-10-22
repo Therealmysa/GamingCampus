@@ -92,8 +92,17 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
-  gap: 25px;
+  gap: 5%;
 }
+
+#logo {
+  height: 60%;
+}
+
+#logo img {
+  height: 100%;
+}
+
 .main-header h1 {
   color: rgb(238, 238, 238);
   font-weight: 700;
@@ -117,7 +126,7 @@ header {
   border-width: 1px;
   letter-spacing: 2px;
   word-spacing: 1.5px;
-  height: 45px;
+  height: 12%;
   width: 325px;
 }
 
@@ -143,12 +152,15 @@ header {
 
 .icon-part {
   height: 60vh;
-  background: rgb(27, 27, 27);
+  background: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-part-container {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +168,51 @@ header {
 }
 
 .list-icon-part {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  gap: 6%;
+}
+
+.lip-logo {
+  height: 40%;
+  width: auto;
+}
+
+.lip-logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.list-icon-part h3 {
+  font-size: 1rem;
+  word-spacing: 1px;
+}
+
+.list-icon-part p {
+  text-align: center;
+  word-spacing: 1px;
+}
+
+.list-icon-part button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.83rem;
+  color: rgb(248, 248, 248);
+  background: none;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: white;
+  border-width: 1px;
+  letter-spacing: 0.005px;
+  width: 70%;
+  height: 13%;
 }
