@@ -50,15 +50,18 @@ nav {
   transform: scaleX(0); /* Masque la ligne initialement */
   transform-origin: left;
   transition: transform 0.3s ease-in-out; /* Animation pour l'affichage */
+  user-select: none;
 }
 
 .menu li:hover::before {
   transform: scaleX(1); /* Montre la ligne au survol */
   color: #4a148c;
+  user-select: none;
 }
 
 .menu li:hover {
   color: #4a148c;
+  user-select: none;
 }
 
 #language {
@@ -341,6 +344,7 @@ header {
 
 .link {
   height: 5%;
+  user-select: none;
 }
 
 .link a {
@@ -349,6 +353,7 @@ header {
   font-weight: 600;
   font-size: 0.9rem;
   letter-spacing: 1px;
+  user-select: none;
 }
 
 .link a:hover {
